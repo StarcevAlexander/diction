@@ -37,9 +37,6 @@ jobs:
           npm run build -- --configuration production \
           --base-href="/diction/"
 
-      - name: Create 404.html for SPA routing
-        run: cp dist/diction/browser/index.html dist/diction/browser/404.html
-
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

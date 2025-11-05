@@ -27,7 +27,7 @@ jobs:
 
       - name: Create 404.html for SPA
         run: |
-          cp dist/diction/browser/index.html dist/diction/browser/404.html
+          cp dist/diction/browser/index.html
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

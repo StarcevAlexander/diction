@@ -35,7 +35,7 @@ jobs:
       - name: Build
         run: |
           npm run build -- --configuration production \
-          --base-href="/diction/"
+          --base-href="/"
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

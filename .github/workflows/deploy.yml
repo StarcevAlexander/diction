@@ -23,11 +23,7 @@ jobs:
       - name: Build
         run: |
           npm run build -- --configuration production \
-          --base-href="/diction/"  # ИЗМЕНИТЕ на английское название
-
-      - name: Create 404.html for SPA
-        run: |
-          cp dist/diction/browser/index.html
+          --base-href="/diction/"
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

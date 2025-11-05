@@ -2,8 +2,8 @@
   "name": "Дикция",
   "short_name": "Дикция",
   "display": "standalone",
-  "scope": "./",
-  "start_url": "./",
+  "start_url": "/diction/",
+  "scope": "/diction/",
   "icons": [
     {
       "src": "icon.svg",
